@@ -194,7 +194,7 @@ indicating whether the operation was successful.</p>
     </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
-    <p>When using <code>load_data_local_infile = TRUE</code> in <code><a href="https://dbi.r-dbi.org/reference/dbConnect.html" class="external-link">dbConnect()</a></code>,
+    <p>When using <code>load_data_local_infile = TRUE</code> in <code><a href="https://dbi.r-dbi.org/reference/dbConnect.html" class="external-link">DBI::dbConnect()</a></code>,
 pass <code>safe = FALSE</code> to <code><a href="https://dbi.r-dbi.org/reference/dbAppendTable.html" class="external-link">dbAppendTable()</a></code> to avoid transactions.
 Because <code>LOAD DATA INFILE</code> is used internally, this means that
 rows violating primary key constraints are now silently ignored.</p>
