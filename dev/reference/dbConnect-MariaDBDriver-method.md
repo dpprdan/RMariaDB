@@ -128,9 +128,9 @@ dbConnect(
 - load_data_local_infile:
 
   Set to `TRUE` to use `LOAD DATA LOCAL INFILE` in
-  [`DBI::dbWriteTable()`](https://dbi.r-dbi.org/reference/dbWriteTable.html)
+  [`dbWriteTable()`](https://dbi.r-dbi.org/reference/dbWriteTable.html)
   and
-  [`DBI::dbAppendTable()`](https://dbi.r-dbi.org/reference/dbAppendTable.html)
+  [`dbAppendTable()`](https://dbi.r-dbi.org/reference/dbAppendTable.html)
   by default. This capability is disabled by default on the server side
   for recent versions of MySQL Server.
 
