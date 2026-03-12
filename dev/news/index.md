@@ -1,5 +1,12 @@
 # Changelog
 
+## RMariaDB 1.3.4.9010 (2026-03-12)
+
+### Chore
+
+- Auto-update from GitHub Actions
+  ([\#432](https://github.com/r-dbi/RMariaDB/issues/432)).
+
 ## RMariaDB 1.3.4.9009 (2026-03-08)
 
 ### Chore
