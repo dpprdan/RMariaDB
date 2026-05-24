@@ -1,5 +1,13 @@
 # Changelog
 
+## RMariaDB 1.3.4.9017 (2026-05-24)
+
+### Continuous integration
+
+- Update ccache-action reference.
+
+- Bump action version.
+
 ## RMariaDB 1.3.4.9016 (2026-05-16)
 
 - Ci: Unify fledge.yaml across cynkratemplate and fledge
